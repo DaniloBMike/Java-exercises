@@ -9,10 +9,10 @@ public class IfElseScanner {
         int age = scanner.nextInt();
 
         if (age >= 18){
-          System.out.println("Adult");
+          System.out.println("Can vote");
         }
         else {
-            System.out.println("Minor");
+            System.out.println("Cannot vote");
         }
 
         scanner.close();
