@@ -5,12 +5,12 @@ public class scanner {
 
         Scanner scanner = new Scanner(System.in);
 
-        System.out.println("Write your full name here: ");
+        System.out.println("Enter your full name here: ");
         String name = scanner.nextLine();
         System.out.println("Name:" + name );
 
-        System.out.println("Put your age here: ");
-        int age = scanner.nextInt();
+        System.out.println("Enter your age here: ");
+        String age = scanner.nextLine();
         System.out.println("Age:" + age);
 
         System.out.println("You are employed?" );
