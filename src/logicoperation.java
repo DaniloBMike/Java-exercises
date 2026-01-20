@@ -10,7 +10,7 @@ public class logicoperation {
         System.out.println(x && y);
         System.out.println(x || y);
         System.out.println(y || b);
-        System.out.println(y && b);
+        System.out.println(!y || b);
 
     }
 }
