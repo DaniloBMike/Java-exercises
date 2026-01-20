@@ -7,6 +7,7 @@ public class comparativeexpressions {
         int ps52 = 90;
 
         System.out.println(ps5 > xbox2);
+        System.out.println(ps5 >= ps52);
 
 
 
