@@ -1,21 +1,28 @@
 public class ifelsestructure {
     public static void main (String[] args) {
 
-        int john = 75;
-        int maria = 80;
-        int evelyn = 67;
-        int danilo = 100;
+         int danilo = 87;
+        int mike = 75;
+        int evelyn = 68;
 
-        boolean gradepass = true;
-
-        if (john <= 50) {
-            System.out.println("Denial");
-        }
-        else if (john <= 70){
+        if (danilo <= 50) {
+            System.out.println("Not pass");
+        } else if (danilo == 70) {
             System.out.println("Final test");
-        }
-        else {
+        } else {
             System.out.println("Pass");
+        }
+
+
+        boolean haveMoney = false;
+        boolean dontHavemoney = false;
+
+        if (haveMoney && !dontHavemoney) {
+            System.out.println("You got money");
+        } else if (haveMoney || !dontHavemoney) {
+            System.out.println("You don't have money, but I have");
+        } else  {
+            System.out.println("Stay at home");
         }
     }
 }
