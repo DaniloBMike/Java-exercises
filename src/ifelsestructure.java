@@ -14,15 +14,27 @@ public class ifelsestructure {
         }
 
 
-        boolean haveMoney = false;
+        boolean haveMoney = true;
         boolean dontHavemoney = false;
 
-        if (haveMoney && !dontHavemoney) {
+        if (haveMoney && dontHavemoney) {
             System.out.println("You got money");
         } else if (haveMoney || !dontHavemoney) {
             System.out.println("You don't have money, but I have");
         } else  {
             System.out.println("Stay at home");
         }
+
+        String message = (haveMoney) ? "your rich " : "Stay at home bro";
+        System.out.println(message);
+
+        if (haveMoney) {
+            System.out.println("your rich");
+        } else {
+            System.out.println("Stay at home bro");
+        }
+
+
+
     }
 }
