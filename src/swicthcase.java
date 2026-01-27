@@ -4,7 +4,7 @@ public class swicthcase {
         int age = 27;
 
         switch (age) {
-            case 100:
+            case 27:
                 System.out.println("There you are, the new Danilo");
                 break;
 
@@ -20,9 +20,11 @@ public class swicthcase {
                 System.out.println("You are dead bro lol");
         }
 
-        if (age >= 27);
-        System.out.println("There you are");
-
+        if ( age == 27) {
+            System.out.println("Tas ficando velho ksks");
+        } else {
+            System.out.println("nice");
+        }
 
     }
 }
