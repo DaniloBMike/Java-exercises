@@ -5,7 +5,7 @@ public class whileloop {
 
         while (count <=10) {
             System.out.println("Counted : " + count);
-            count++;
+            count = count + 2;
         }
     }
 }
