@@ -1,11 +1,14 @@
 public class whileloop {
     public static void main (String[] args) {
 
-        int count = 0;
+        int number = 1;
 
-        while (count <=10) {
-            System.out.println("Counted : " + count);
-            count = count + 2;
+        while (number <= 10) {
+            if ((number % 2) == 0)
+                System.out.println("number: " + number);
+            number++;
         }
+
+
     }
-}
+    }
