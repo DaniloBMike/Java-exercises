@@ -3,6 +3,8 @@ public class Array {
 
         //Array declaration and initialization
 
+        //2 types of Array initialization
+
         int[] number = {10,20,85,5,64};
         String[] names = {"Danilo, Vanessa, Silvana"};
 
@@ -13,8 +15,9 @@ public class Array {
         salary[2] = 700.00;
         salary[0] = 400.00;
 
-        for (int position = 0; position <salary.length; position++) {
-            
+        for(int position = 0; position <salary.length; position++) {
+            System.out.println(salary[position]);
+
         }
 
 
