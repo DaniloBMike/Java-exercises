@@ -15,6 +15,8 @@ public class Array {
         salary[2] = 700.00;
         salary[0] = 400.00;
 
+        //Integration through array
+
         for(int position = 0; position <salary.length; position++) {
             System.out.println(salary[position]);
 
