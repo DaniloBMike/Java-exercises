@@ -1,27 +1,28 @@
 public class Array {
-    public static void main (String[] args) {
+    public static void main(String[] args) {
 
-        //Array declaration and initialization
+        //Array Declaration
 
-        //2 types of Array initialization
+        //Two types of array initialization
+        int[] numbers = {20,39,15,55,9};
+        String[] names;
 
-        int[] number = {10,20,85,5,64};
-        String[] names = {"Danilo, Vanessa, Silvana"};
+        names = new String[] {"Danilo","Vanessa","Silvana"};
 
-        double[] salary = new double[5];
-        salary[4] = 300.00;
-        salary[3] = 100.00;
-        salary[1] = 900.00;
-        salary[2] = 700.00;
-        salary[0] = 400.00;
+//        double[] salary = new double[5];
+//        salary[3] = 900.00;
+//        salary[2] = 200.00;
+//        salary[1] = 300.00;
+//        salary[0] = 700.00;
+//        salary[4] = 400.00;
+//
+//        //Interaction with for
+//
+//        for (int position = 3; position < salary.length; position++) {
+//            System.out.println(salary[position]);
+//        }
 
-        //Integration through array
-
-        for(int position = 0; position <salary.length; position++) {
-            System.out.println(salary[position]);
-
-        }
-
+        
 
     }
 }
