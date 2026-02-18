@@ -18,9 +18,9 @@ public class Array {
 
         //Interaction with for
 
-//        for (int position = 3; position < salary.length; position++) {
-//            System.out.println(salary[position]);
-//        }
+        for (int position = 3; position < salary.length; position++) {
+            System.out.println(salary[position]);
+        }
 
         for (double income : salary) {
             System.out.println(income);
