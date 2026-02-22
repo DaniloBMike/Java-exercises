@@ -17,8 +17,24 @@ public class collectionwitharray {
             System.out.println(names);
         }
 
+
         String names = familyNames.get(3);
         System.out.println("The position name is : " + names);
+
+
+        familyNames.remove(3);
+
+        boolean evazia = familyNames.isEmpty();
+        System.out.println(evazia);
+
+        
+
+        for (String names2 : familyNames) {
+            System.out.println(names2);
+        }
+
+
+
 
     }
 }
