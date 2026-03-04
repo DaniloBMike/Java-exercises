@@ -8,8 +8,7 @@ public class collectionhashmap {
         money.put("Vanessa" , 1.000);
         money.put("Silvana" , 3.000);
 
-        money.get("Silvana");
-        System.out.println("Silvana has: " +);
+        System.out.println(money.get("How much money she had ? " + "Silvana"));
 
     }
 }
