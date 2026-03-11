@@ -8,12 +8,18 @@ public class collectionhashmap {
         money.put("Vanessa" , 1.000);
         money.put("Silvana" , 3.000);
 
+        //Method (KEYSET) At (for) to integrate in HashMap
+
         for(String name : money.keySet()) {
             double cash = money.get(name);
-            System.out.println(name + " : " + cash);
+            System.out.println(name + " : " + cash);}
+
+        //Method (EntrySet) to integrate in HashMap
+
+        double cash = money.get("Silvana");
+        System.out.println("Silvana has : " +cash);
+
+
         }
 
-
-        money.get("Danilo");
-    }
 }
