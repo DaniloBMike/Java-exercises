@@ -1,15 +1,16 @@
 public class whileloop {
     public static void main (String[] args) {
 
-            int number = 10;
+            //while structure
 
-            while (number<=100) {
-                System.out.println("number = " + number);
-                number++;
-            }
+//            int number = 10;
 
+//            while (number<=100) {
+//                System.out.println("The number is " + number);
+//                number++;
+//            }
 
-
+            //Do while structure
 
 //        do {
 //            System.out.println("Number = " + number);
@@ -17,9 +18,11 @@ public class whileloop {
 //            }
 //        while (number <=15);
 //
-//            for (;number >=10; number--){
-//                System.out.println("number : " + number);
-//            }
+           // For structure
+
+           for(int number = 0; number <=10; number++) {
+               System.out.println("Numbers : " + number);
+           }
 //
 //        int x = 10;
 //
