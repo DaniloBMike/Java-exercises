@@ -20,7 +20,7 @@ public class whileloop {
 //
            // For structure
 
-           for(int number = 0; number <=10; number++) {
+           for(int number = 0; number < 10; number+=3) {
                System.out.println("Numbers : " + number);
            }
 //
