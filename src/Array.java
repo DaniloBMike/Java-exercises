@@ -1,32 +1,29 @@
 public class Array {
-    public static void main(String[] args) {
+    public static void main (String[] args) {
 
-        //Array Declaration
+        //Ways of array initialization
 
-        //Two types of array initialization
-        int[] numbers = {20,39,15,55,9};
-        String[] names;
+                int [] numbers = {10,9,35,68,99};
 
-        names = new String[] {"Danilo","Vanessa","Silvana"};
+                String [] names = {"Danilo","Vanessa","Silvana"};
 
-        double[] salary = new double[5];
-        salary[3] = 900.00;
-        salary[2] = 200.00;
-        salary[1] = 300.00;
-        salary[0] = 700.00;
-        salary[4] = 400.00;
+                String [] fruts;
 
-        //Interaction with for
+                fruts = new String [] {"Banana","Maçâ","Manga"};
 
-        for (int position = 3; position < salary.length; position++) {
-            System.out.println(salary[position]);
+        double [] monthlySalary = new double[7];
+
+        monthlySalary[1] = 500.00;
+        monthlySalary[3] = 900.00;
+        monthlySalary[5] = 100.00;
+        monthlySalary[0] = 400.00;
+        monthlySalary[2] = 700.00;
+        monthlySalary[6] = 300.00;
+        monthlySalary[4] = 200.00;
+
+        for (int quantity = 0; quantity <monthlySalary.length; quantity++) {
+            System.out.println(monthlySalary[quantity]);
         }
 
-        for (double income : salary) {
-            System.out.println(income);
-        }
-
-        salary[4] = 650.00;
-        System.out.println(salary[4]);
     }
 }
