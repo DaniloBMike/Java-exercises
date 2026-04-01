@@ -26,7 +26,7 @@ public class Array {
         salary[5] = 1000.00;
         salary[4] = 750.00;
 
-        for (int position = 0; position< salary.length; position++) {
+        for ( int position = 3; position< salary.length; position++) {
             System.out.println(salary[position]);
         }
 
