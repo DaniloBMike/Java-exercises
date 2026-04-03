@@ -17,17 +17,22 @@ public class Array {
 
         //Another way of initialization
 
-        double[] salary = new double[7];
-        salary[1] = 500.00;
-        salary[3] = 600.00;
-        salary[6] = 900.00;
-        salary[2] = 550.00;
-        salary[0] = 100.00;
-        salary[5] = 1000.00;
-        salary[4] = 750.00;
+        double [] salaryIncome = new double [7];
 
-        for ( int position = 3; position< salary.length; position++) {
-            System.out.println(salary[position]);
+        salaryIncome[0] = 700.00;
+        salaryIncome[5] = 800.00;
+        salaryIncome[6] = 900.00;
+        salaryIncome[2] = 100.00;
+        salaryIncome[1] = 400.00;
+        salaryIncome[4] = 200.00;
+        salaryIncome[3] = 600.00;
+
+        for ( int money = 0; money < salaryIncome.length; money ++) {
+            System.out.println(salaryIncome[money]);
+        }
+
+        for ( double income : salaryIncome) {
+            System.out.println(income);
         }
 
     }
