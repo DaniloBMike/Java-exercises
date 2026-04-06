@@ -27,13 +27,16 @@ public class Array {
         salaryIncome[4] = 200.00;
         salaryIncome[3] = 600.00;
 
-        for ( int money = 0; money < salaryIncome.length; money ++) {
-            System.out.println(salaryIncome[money]);
+
+        for ( int number = 0; number < salaryIncome.length; number ++ ) {
+            System.out.println(salaryIncome[number] = salaryIncome[number] + 1000);
         }
 
-        for ( double income : salaryIncome) {
-            System.out.println(income);
+        for ( double salary : salaryIncome) {
+            System.out.println(salary);
         }
+
+
 
     }
 }
