@@ -21,7 +21,7 @@ public class Array {
 
         salaryIncome[0] = 700.00;
         salaryIncome[5] = 800.00;
-        salaryIncome[6] = 900.00;
+        salaryIncome[6] = 4400.00;
         salaryIncome[2] = 100.00;
         salaryIncome[1] = 400.00;
         salaryIncome[4] = 200.00;
@@ -37,6 +37,8 @@ public class Array {
         }
 
 
+                salaryIncome[6] = 400.00;
+                System.out.println(salaryIncome[6]);
 
     }
 }
