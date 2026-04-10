@@ -4,7 +4,7 @@ import java.util.List;
 public class collectionwitharray {
     public static void main (String[] args) {
 
-        List<String> names = new ArrayList<>(); {
+        List<String> names = new ArrayList<>();
 
             names.add("Danilo");
             names.add("Silvana");
@@ -31,11 +31,6 @@ public class collectionwitharray {
             int size = names.size(); {
                 System.out.println("The size is : " + size);
             }
-
-
-
-
-        }
 
     }
 }

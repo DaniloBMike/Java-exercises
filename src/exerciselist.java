@@ -10,11 +10,14 @@ public class exerciselist {
             names.add("Silvana");
             names.add("Vanessa");
 
-        
-
-        for (String name : names) {
-            System.out.println("The names are : " + name);
+        names.remove("Danilo"); {
+            System.out.println("The names are : " + names + " The size is : " + names.size());
         }
+
+//        for (String name : names) {
+//            System.out.println("The names are : " + name);
+//        }
+
 
     }
 }
