@@ -1,4 +1,4 @@
-import java.util.ArrayList;
+ import java.util.ArrayList;
 import java.util.List;
 
 public class collectionwitharray {
@@ -32,5 +32,6 @@ public class collectionwitharray {
                 System.out.println("The size is : " + size);
             }
 
+            System.out.println(" The name is : " + names.get(5));
     }
 }
