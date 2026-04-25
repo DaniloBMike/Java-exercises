@@ -3,23 +3,26 @@ import java.util.HashMap;
 public class collectionhashmap {
     public static void main (String[] args) {
 
-        HashMap<String, Double> money = new HashMap<>();
-        money.put("Danilo" , 1.500);
-        money.put("Vanessa" , 1.000);
-        money.put("Silvana" , 3.000);
+        HashMap<String, Integer> family = new HashMap<>();
 
-        //Method (KEYSET) At (for) to integrate in HashMap
+        family.put("Danilo", 27);
+        family.put("Silvana" , 40);
+        family.put("Vanessa" , 30);
 
-        for(String name : money.keySet()) {
-            double cash = money.get(name);
-            System.out.println(name + " : " + cash);}
+        //One of two method that we can get the key and the value
 
-        //Method (EntrySet) to integrate in HashMap
-
-        double cash = money.get("Silvana");
-        System.out.println("Silvana has : " +cash);
-
-
+        for (String familyName : family.keySet()) {
+            Integer ages = family.get(familyName);
+            System.out.println(familyName + " : " + ages);
         }
 
+        //Getting just one ket and their value at time
+
+        Integer name = family.get("Silvana");
+        System.out.println("The name is : " + name);
+
+
+
+
+    }
 }
