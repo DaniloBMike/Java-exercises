@@ -1,4 +1,5 @@
 import java.util.HashMap;
+import java.util.Map;
 
 public class collectionhashmap {
     public static void main (String[] args) {
@@ -16,6 +17,12 @@ public class collectionhashmap {
         for (String stores : store.keySet()) {
             Integer value = store.get(stores);
             System.out.println(stores + " : " + value);
+        }
+
+        for (Map.Entry<String,Integer> ages : store.entrySet()) {
+            String name = ages.getKey();
+            Integer ageFamily = ages.getValue();
+            System.out.println(name + " : " + ageFamily);
         }
 
 
