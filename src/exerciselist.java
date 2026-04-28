@@ -44,11 +44,11 @@ public class exerciselist {
 
         fruits.remove(1);
 
-        fruits.size();
-        System.out.println(fruits);
+        int theSize = fruits.size();
+        System.out.println(" The size of this list is : " + theSize);
 
-        fruits.get(2);
-        System.out.println(fruits);
+        String nameFruit = fruits.get(1);
+        System.out.println(" The name of the second index is : " + nameFruit);
     }
 
 }
