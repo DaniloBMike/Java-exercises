@@ -1,29 +1,28 @@
 import java.util.HashMap;
-import java.util.Map;
 
 public class collectionhashmap {
     public static void main (String[] args) {
 
 
-        HashMap<String, Integer> store = new HashMap<>();
-
-        store.put("Apple",3);
-        store.put("Bread",7);
-        store.put("Milk", 5);
-
-        Integer pao = store.get("Bread");
-        System.out.println("The value of Bread is : " + pao);
-
-        for (String stores : store.keySet()) {
-            Integer value = store.get(stores);
-            System.out.println(stores + " : " + value);
-        }
-
-        for (Map.Entry<String,Integer> ages : store.entrySet()) {
-            String name = ages.getKey();
-            Integer ageFamily = ages.getValue();
-            System.out.println(name + " : " + ageFamily);
-        }
+//        HashMap<String, Integer> store = new HashMap<>();
+//
+//        store.put("Apple",3);
+//        store.put("Bread",7);
+//        store.put("Milk", 5);
+//
+//        Integer pao = store.get("Bread");
+//        System.out.println("The value of Bread is : " + pao);
+//
+//        for (String stores : store.keySet()) {
+//            Integer value = store.get(stores);
+//            System.out.println(stores + " : " + value);
+//        }
+//
+//        for (Map.Entry<String,Integer> ages : store.entrySet()) {
+//            String name = ages.getKey();
+//            Integer ageFamily = ages.getValue();
+//            System.out.println(name + " : " + ageFamily);
+//        }
 
 
 
@@ -49,6 +48,21 @@ public class collectionhashmap {
 //        System.out.println("The name is : " + name);
 
 
+        HashMap<String, Integer> scores = new HashMap<>();
+
+        scores.put("Alice", 150);
+        scores.put("Bruno", 200);
+        scores.put("Carlos", 180);
+        scores.put("Diana", 220);
+
+        Integer dianasScore = scores.get("Diana");
+        System.out.println(" The Diana score is : " + dianasScore);
+
+        for (String allNames : scores.keySet()) {
+            Integer allscores = scores.get(allNames);
+            System.out.println(allNames + " : " + allscores);
+        }
+        
 
 
     }
