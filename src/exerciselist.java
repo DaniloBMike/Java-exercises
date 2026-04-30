@@ -4,51 +4,37 @@ import java.util.List;
 public class exerciselist {
     public static void main (String[] args) {
 
-//        List<String> students = new ArrayList<>();
-//
-//        students.add("Ana");
-//        students.add("Bruno");
-//        students.add("Carlos");
-//        students.add("Diana");
-//
-//        students.add(2, "Eduardo");
-//
-//        students.remove(1);
-//
-//        int studant = students.size();
-//        System.out.println(" The size is : " + studant);
-//
-//        String nameStudent = students.get(2);
-//        System.out.println(" The third student is : " + nameStudent);
-//
-//        for (String allStudents : students) {
-//            System.out.println(allStudents);
-//        }
-//
-//        boolean empty = students.isEmpty();
-//        System.out.println("The list is empty ? " + empty);
-//
-//        boolean contein = students.contains("Diana");
-//        System.out.println("There are Diana in the list ? " + contein);
-//
-//        students.forEach(school -> System.out.println(school));
-//    }
+        List<String> students = new ArrayList<>();
 
-        List<String> fruits = new ArrayList<>();
+        students.add("Ana");
+        students.add("Bruno");
+        students.add("Carlos");
+        students.add("Diana");
 
-        fruits.add("Mango");
-        fruits.add("Grape");
-        fruits.add("Banana");
-        fruits.add("Orange");
-        System.out.println(fruits);
+        students.add(2, "Eduardo");
 
-        fruits.remove(1);
+        students.remove(1);
 
-        int theSize = fruits.size();
-        System.out.println(" The size of this list is : " + theSize);
+        int studant = students.size();
+        System.out.println(" The size is : " + studant);
 
-        String nameFruit = fruits.get(1);
-        System.out.println(" The name of the second index is : " + nameFruit);
+        String nameStudent = students.get(2);
+        System.out.println(" The third student is : " + nameStudent);
+
+        for (String allStudents : students) {
+            System.out.println(allStudents);
+        }
+
+        boolean empty = students.isEmpty();
+        System.out.println("The list is empty ? " + empty);
+
+        boolean contein = students.contains("Diana");
+        System.out.println("There are Diana in the list ? " + contein);
+
+        students.forEach(school -> System.out.println(school));
     }
+
+
+
 
 }
