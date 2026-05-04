@@ -1,7 +1,7 @@
 import java.util.TreeMap;
 
-public class exercisetreemap {
-    public static void main (String[] args) {
+ public class exercisetreemap {
+    void main() {
 
         TreeMap<String, Integer> scores = new TreeMap<>();
 
