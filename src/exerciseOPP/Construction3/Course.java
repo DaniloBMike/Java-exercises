@@ -26,7 +26,7 @@ public class Course {
 
     //Methods
 
-    public void studyHours (double hours){
+    public double studyHours (double hours){
 
         hoursCompleted = hoursCompleted + hours;
     }
@@ -51,6 +51,7 @@ public class Course {
         int changeType = (int) (progress() / 10);
 
         for (int i = 0; i <= changeType; i++) {
+            System.out.println("#");
         }
 
         System.out.println(progress() + "%");
