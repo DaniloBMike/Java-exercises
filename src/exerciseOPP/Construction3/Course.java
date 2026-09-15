@@ -8,25 +8,25 @@ public class Course {
     String studentName;
     double totalHours;
     double hoursCompleted;
-    double price;
+    int price;
     boolean graduate;
 
 
     //Construction
 
-    public Course(String courseName, String studentName, double totalHours, double hoursCompleted, double price, boolean graduate) {
+    public Course(String courseName, String studentName, double totalHours, double hoursCompleted, int price, boolean graduate) {
 
         this.courseName = courseName;
         this.studentName = studentName;
-        this.totalHours = 0;
-        this.hoursCompleted = hoursCompleted;
+        this.totalHours = totalHours;
+        this.hoursCompleted =0;
         this.price = price;
         this.graduate = graduate;
     }
 
     //Methods
 
-    public double studyHours (double hours){
+    public void studyHours (double hours){
 
         hoursCompleted = hoursCompleted + hours;
     }
