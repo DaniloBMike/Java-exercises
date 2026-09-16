@@ -62,7 +62,7 @@ public class Course {
             System.out.println("The course is already completed and the Certificate issued for" + studentName);
         }
         else {
-            System.out.println(showProgressBar());
+            System.out.println((int) progress());
         }
 
     }
