@@ -5,7 +5,7 @@ public class Students {
 
         //Student01
 
-        Course student01 = new Course("Software Engineer", "Danilo", 650.0,0,3000,false);
+        Course student01 = new Course("Software Engineer", "Danilo", 650.0,3000,false);
 
         student01.studyHours(450.0);
         student01.showProgressBar();

@@ -14,7 +14,7 @@ public class Course {
 
     //Construction
 
-    public Course(String courseName, String studentName, double totalHours, double hoursCompleted, int price, boolean graduate) {
+    public Course(String courseName, String studentName, double totalHours, int price, boolean graduate) {
 
         this.courseName = courseName;
         this.studentName = studentName;
@@ -50,9 +50,15 @@ public class Course {
 
         int changeType = (int) (progress() / 10);
 
-        for (int i = 0; i <= changeType; i++) {
-            System.out.println(changeType + "%");
+        for (int i = 1; i <= changeType; i++) {
+            System.out.print("#");
+            System.out.println(" " + progress() + "%");
         }
+    }
+
+    public void changingType() {
+        double type = progress();
+        int type = (int) progress();
     }
 
     public void certificate() {
@@ -61,7 +67,7 @@ public class Course {
             System.out.println("The course is already completed and the Certificate issued for" + studentName);
         }
         else {
-            System.out.println("Keep going" + c);
+            System.out.println(changingType());
         }
 
     }
