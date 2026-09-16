@@ -8,7 +8,7 @@ public class Students {
         Course student01 = new Course("Software Engineer", "Danilo", 650.0,3000,false);
 
         student01.studyHours(450.0);
-        student01.showProgressBar();
         student01.certificate();
+        student01.showProgressBar();
     }
 }
