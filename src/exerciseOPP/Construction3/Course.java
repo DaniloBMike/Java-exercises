@@ -14,14 +14,13 @@ public class Course {
 
     //Construction
 
-    public Course(String courseName, String studentName, double totalHours, int price, boolean graduate) {
+    public Course(String courseName, String studentName, double totalHours, int price) {
 
         this.courseName = courseName;
         this.studentName = studentName;
         this.totalHours = totalHours;
         this.hoursCompleted = 0;
         this.price = price;
-        this.graduate = graduate;
     }
 
     //Methods
@@ -52,17 +51,17 @@ public class Course {
 
         for (int i = 1; i <= changeType; i++) {
             System.out.print("#");
-            System.out.println(" " + (int) progress() + "%");
+            System.out.println("Progress" + (int) progress() + "%");
         }
     }
 
     public void certificate() {
 
         if (isCompleted()) {
-            System.out.println("The course is already completed and the Certificate issued for" + studentName);
+            System.out.print("The course is already completed and the Certificate issued for " + studentName);
         }
         else {
-            System.out.println((int) progress());
+            System.out.print(" Keep going! " + progress());
         }
 
     }
