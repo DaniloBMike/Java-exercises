@@ -51,17 +51,17 @@ public class Course {
 
         for (int i = 1; i <= changeType; i++) {
             System.out.print("#");
-            System.out.println("Progress" + (int) progress() + "%");
         }
+            System.out.println(" Progress" + (int) progress() + "%");
     }
 
     public void certificate() {
 
         if (isCompleted()) {
-            System.out.print("The course is already completed and the Certificate issued for " + studentName);
+            System.out.println("The course has already been completed and the Certificate issued for " + studentName);
         }
         else {
-            System.out.print(" Keep going! " + progress());
+            System.out.println(" Keep going! " + studentName + " Your progress " + (int) progress());
         }
 
     }
