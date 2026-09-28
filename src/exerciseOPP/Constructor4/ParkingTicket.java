@@ -59,4 +59,16 @@ public class ParkingTicket {
             System.out.println("|");
         }
     }
+
+    public void showRecept() {
+
+        System.out.println("Your vehicle plate is: " + vehiclePlate + "Hours Parked" + hoursParked + "Fee to pay" + totalFee());
+
+        if (hasDiscount()) {
+            System.out.println("Discount Applied");
+        }
+        else {
+            System.out.println("Discount not applied");
+        }
+    }
 }
