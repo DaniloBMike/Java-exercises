@@ -1,14 +1,16 @@
-package exerciseOPP.Construction;
+package exerciseOPP.Constructor;
 
 public class Employeebase {
 
-        //Employee 01
+        //Attributes
 
         String name;
         int age;
         double salary;
         int hoursDayWorked;
         int hourWeekWorked;
+
+        //Constructor
 
         public Employeebase(String name, int age, double salary, int hoursDayWorked, int hourWeekWorked) {
 

@@ -1,4 +1,4 @@
-package exerciseOPP.Construction3;
+package exerciseOPP.Constructor3;
 
 public class Course {
 
@@ -12,7 +12,7 @@ public class Course {
     boolean graduate;
 
 
-    //Construction
+    //Constructor
 
     public Course(String courseName, String studentName, double totalHours, int price) {
 
@@ -66,3 +66,4 @@ public class Course {
 
     }
 }
+

@@ -1,4 +1,4 @@
-package exerciseOPP.Construction;
+package exerciseOPP.Constructor;
 
 public class Employee01 {
     public static void main(String[] args){

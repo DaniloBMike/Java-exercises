@@ -1,10 +1,14 @@
-package exerciseOPP.Construction2;
+package exerciseOPP.Constructor2;
 
 public class MotorcycleBase {
+
+    //Attributes
 
     String model;
     int year;
     double mileage;
+
+    //Constructor
 
     public MotorcycleBase(String model, int year, double mileage) {
         this.model = model;

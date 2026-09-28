@@ -1,4 +1,4 @@
-package exerciseOPP.Construction2;
+package exerciseOPP.Constructor2;
 
 public class MotorcycleMain {
     public static void main(String[] args) {
