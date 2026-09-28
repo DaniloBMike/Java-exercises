@@ -26,7 +26,7 @@ public class ParkingTicket {
 
     }
 
-    public double hoursFee() {
+    public double totalFee() {
 
         return hoursParked * hourlyRate;
 
@@ -43,10 +43,20 @@ public class ParkingTicket {
 
     }
 
+    public double finalFee() {
 
-    
+        if (hasDiscount()) {
+            return totalFee() * 0.9;
+        }
+        else { return totalFee();}
+    }
 
+    public void printHoursMarket() {
 
+        int hours = (int) hoursParked;
 
-
+        for (int i = 1; i < hours; i++) {
+            System.out.println("|");
+        }
+    }
 }
