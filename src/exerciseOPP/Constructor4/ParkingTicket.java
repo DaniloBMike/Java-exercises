@@ -10,7 +10,7 @@ public class ParkingTicket {
 
     //Constructor
 
-    public ParkingTicket(String vehiclePlate, double hoursParked, double hourlyRate) {
+    public ParkingTicket(String vehiclePlate, double hourlyRate) {
 
         this.vehiclePlate = vehiclePlate;
         this.hourlyRate = hourlyRate;
@@ -55,14 +55,15 @@ public class ParkingTicket {
 
         int hours = (int) hoursParked;
 
-        for (int i = 1; i < hours; i++) {
-            System.out.println("|");
+        for (int i = 1; i <= hours; i++) {
+            System.out.print("|");
         }
+        System.out.println();
     }
 
     public void showRecept() {
 
-        System.out.println("Your vehicle plate is: " + vehiclePlate + "Hours Parked" + hoursParked + "Fee to pay" + totalFee());
+        System.out.println("Your vehicle plate is: " + vehiclePlate + "Hours Parked : " + hoursParked + " Fee to pay = " + finalFee());
 
         if (hasDiscount()) {
             System.out.println("Discount Applied");
@@ -71,4 +72,6 @@ public class ParkingTicket {
             System.out.println("Discount not applied");
         }
     }
+
+
 }
