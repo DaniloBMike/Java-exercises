@@ -1,15 +1,13 @@
 package exerciseOPP.HousePlainExercise.House;
 
-import exerciseOPP.HousePlainExercise.houseplan;
-
-public class house2 {
+public class House2 {
     public static void main (String[] args){
 
 
 
         //new object created called House2.
 
-        houseplan house2 = new houseplan();
+        HousePlan house2 = new HousePlan();
 
         house2.ownerName = "Danilo";
         house2.kitchen = true;

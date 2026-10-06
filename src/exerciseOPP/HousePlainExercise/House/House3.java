@@ -1,9 +1,9 @@
-package exerciseOPP.HousePlainExercise;
+package exerciseOPP.HousePlainExercise.House;
 
 public class House3 implements HouseBuilding {
     public static void main ( String [] args ) {
 
-        houseplan House3 = new houseplan();
+        HousePlan House3 = new HousePlan();
 
         House3.houseSize = 300;
         House3.roomQuantity = 3;

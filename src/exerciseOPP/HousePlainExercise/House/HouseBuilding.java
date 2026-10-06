@@ -1,4 +1,4 @@
-package exerciseOPP.HousePlainExercise;
+package exerciseOPP.HousePlainExercise.House;
 
 public interface HouseBuilding {
 

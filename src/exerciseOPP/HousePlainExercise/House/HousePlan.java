@@ -1,6 +1,6 @@
-package exerciseOPP.HousePlainExercise;
+package exerciseOPP.HousePlainExercise.House;
 
-public class houseplan implements HouseBuilding {
+public class HousePlan implements HouseBuilding {
 
     //Attributes
 
