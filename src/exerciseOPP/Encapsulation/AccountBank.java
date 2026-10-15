@@ -10,17 +10,17 @@ public class AccountBank {
     //Getter and Setter - Standard methods to get and to modify attributes
 
 
-    //Method to GET an Attribute
+    //Method to READ an Attribute use GET
 
     public String getOwnerName() {
         return ownerName;
     }
 
-    //Method SET to modify an attribute
+    //Method to modify or add value an attribute use SET
 
     public void changeOwnerName(String newOwnerName) {
         this.ownerName = newOwnerName;
-        
+
     }
 
 
