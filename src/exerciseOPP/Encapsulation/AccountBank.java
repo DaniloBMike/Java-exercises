@@ -23,5 +23,11 @@ public class AccountBank {
 
     }
 
+    public double getBalance() {
+        return balance;
+    }
 
+    public void setOwnerName(String newOwnerName) {
+        this.ownerName = newOwnerName;
+    }
 }
