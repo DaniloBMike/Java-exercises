@@ -30,4 +30,9 @@ public class AccountBank {
     public void setOwnerName(String newOwnerName) {
         this.ownerName = newOwnerName;
     }
+
+    public AccountBank(String ownerName, double balance) {
+        this.ownerName = ownerName;
+        this.balance = 0;
+    }
 }
