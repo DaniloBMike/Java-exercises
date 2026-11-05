@@ -31,8 +31,24 @@ public class AccountBank {
         this.ownerName = newOwnerName;
     }
 
-    public AccountBank(String ownerName, double balance) {
+    public void setBalance(double balance) {
+        this.balance = balance;
+    }
+
+    public AccountBank(String ownerName) {
         this.ownerName = ownerName;
         this.balance = 0;
+    }
+
+    public double addBalance(double newbalance) {
+
+        return balance = balance + newbalance;
+
+    }
+
+    public void showResult() {
+
+        System.out.println(" The owner name: " + ownerName                                                                                                                                                                                        );
+        System.out.println(" The owner balance: " + balance);
     }
 }
