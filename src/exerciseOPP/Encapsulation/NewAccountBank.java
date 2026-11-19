@@ -25,5 +25,40 @@ public class NewAccountBank {
 
         }
 
+        private String getAccountNumber() {
+                return accountNumber;
+        }
+
+        private String getOwnerName() {
+                return ownerName;
+        }
+
+        private int getOwnerAge() {
+                return ownerAge;
+        }
+
+        private double getBalance() {
+                return balance;
+        }
+
+        private String setOwnerName(String ownerName) {
+                return ownerName;
+        }
+
+        private void Empty() {
+
+                if (ownerName.isEmpty())
+                        System.out.println("There is no owner name!");
+                else {
+                        System.out.println(ownerName);
+                }
+        }
+
+        private boolean isActive() {
+            return !ownerName.isEmpty() && !accountNumber.isEmpty() && balance > 0;
+        }
+
+
+
 
 }
