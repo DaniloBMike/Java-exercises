@@ -54,8 +54,28 @@ public class NewAccountBank {
                 }
         }
 
-        private boolean isActive() {
+        public boolean isActive() {
             return !ownerName.isEmpty() && !accountNumber.isEmpty() && balance > 0;
+        }
+
+        public void deposit(double amount) {
+
+                if (amount > 0) {
+                        balance += amount;
+                } else {
+                        System.out.println("Invalid input!");
+                }
+        }
+
+        public boolean withdraw(double amount) {
+
+                if (amount > 0 && balance <= amount) {
+                        balance -= amount;
+                        return true;
+                } else {
+                        return false;
+                }
+
         }
 
 
