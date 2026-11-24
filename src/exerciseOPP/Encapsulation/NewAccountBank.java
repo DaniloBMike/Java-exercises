@@ -4,8 +4,8 @@ public class NewAccountBank {
 
         //Attributes
 
-        private String accountNumber;
         private String ownerName;
+        private String accountNumber;
         private int ownerAge;
         private double balance;
         private boolean active;
@@ -14,10 +14,10 @@ public class NewAccountBank {
 
         //Constructor
 
-        public NewAccountBank (String accountNumber, String ownerName, int ownerAge, boolean active, boolean hasCreditCard) {
+        public NewAccountBank (String ownerName, String accountNumber, int ownerAge, boolean active, boolean hasCreditCard) {
 
-                this.accountNumber = accountNumber;
                 this.ownerName = ownerName;
+                this.accountNumber = accountNumber;
                 this.ownerAge = ownerAge;
                 this.balance = 0;
                 this.active = active;
@@ -69,7 +69,7 @@ public class NewAccountBank {
 
         public boolean withdraw(double amount) {
 
-                if (amount > 0 && balance <= amount) {
+                if (amount > 0 && balance >= amount) {
                         balance -= amount;
                         return true;
                 } else {
@@ -78,7 +78,7 @@ public class NewAccountBank {
 
         }
 
-
-
-
+        public void showAccount() {
+                System.out.println(" The account Name : " + ownerName + " The account name : " +  accountNumber + " The balance account : " + balance);
+        }
 }
