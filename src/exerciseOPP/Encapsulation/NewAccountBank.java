@@ -39,18 +39,18 @@ public class NewAccountBank {
                 return balance;
         }
 
-        //Methods
-
-        private String setOwnerName(String ownerName) {
-                return ownerName;
+        public void setOwnerName(String newOwnerName){
+                this.ownerName = newOwnerName;
         }
+
+        //Methods
 
         public void deposit(double amount) {
 
                 if (amount > 0) {
                         balance += amount;
                 } else {
-                        System.out.println(" Invalid input! ");
+                        System.out.println(" Invalid input balance! ");
                 }
         }
 
@@ -67,7 +67,9 @@ public class NewAccountBank {
         }
 
         public void showAccount() {
-                System.out.println(" The account Name : " + ownerName + " The account name : " +  accountNumber + " The balance account : " + balance + " The owner age " + ownerAge);
+                System.out.println("The owner name : " + ownerName);
+                System.out.println("The account number : " + accountNumber);
+                System.out.println("The owner age : " + ownerAge);
         }
 
         public boolean active() {
@@ -78,10 +80,10 @@ public class NewAccountBank {
         public void isActive() {
 
                 if (active()) {
-                        System.out.println(" Active and verify account ");
+                        System.out.println("Active and verified account ");
                 }
                 else {
-                        System.out.println(" Verify account, not active ");
+                        System.out.println("Verified account, not active ");
                 }
 
         }
