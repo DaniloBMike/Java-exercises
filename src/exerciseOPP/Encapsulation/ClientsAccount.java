@@ -27,7 +27,7 @@ public class ClientsAccount {
             System.out.println("withdraw successfully");
         }
         else {
-            System.out.println("withdraw failed! balance insufficient");
+            System.out.println("withdraw failed! insufficient funds!");
             System.out.println("Your balance amount : " + client01.getBalance());
         }
 
@@ -55,8 +55,17 @@ public class ClientsAccount {
             System.out.println("Withdraw failed");
         }
 
-        System.out.println(" balance : " + client02.getBalance());
+        if (client02.withdraw(4000.0)) {
+            System.out.println("withdraw successfully");
+        }
 
+        else {
+            System.out.println("Withdraw failed insufficient funds!");
+        }
 
+        System.out.println("balance : " + client02.getBalance());
+
+        client02.setOwnerName("");
+        client02.setOwnerName("Silvana Bernardo Alves");
     }
 }

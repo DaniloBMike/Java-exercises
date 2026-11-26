@@ -50,7 +50,7 @@ public class NewAccountBank {
                 if (amount > 0) {
                         balance += amount;
                 } else {
-                        System.out.println(" Invalid input balance! ");
+                        System.out.println("Invalid input balance! ");
                 }
         }
 
